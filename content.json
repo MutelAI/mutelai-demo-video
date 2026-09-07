@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "template_version": "1.0.0",
+  "business": {
+    "name": "Test Business Co.",
+    "name_en": "Test Business Co.",
+    "site_lang": "en",
+    "available_langs": [
+      "en"
+    ],
+    "phone": "+1-555-0100",
+    "phone_display": "(555) 010-0100",
+    "whatsapp": "15550100",
+    "email": "hello@testbusiness.example",
+    "website": "https://testbusiness.example",
+    "rating": 4.8,
+    "reviews_count": 42,
+    "address_he": "",
+    "address_en": "123 Demo Street, Springfield",
+    "category_he": "",
+    "category_en": "Home Services",
+    "maps_url": "",
+    "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjU2M2ViIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5UZXN0IEJ1c2luZXNzIENvLjwvdGV4dD48L3N2Zz4=",
+    "logo_emoji": "🛠️",
+    "logo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjU2M2ViIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5UQjwvdGV4dD48L3N2Zz4=",
+    "hero_image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjkwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iIzI1NjNlYiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjkwIiBmaWxsPSIjZmZmZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+VGVzdCBCdXNpbmVzcyBDby48L3RleHQ+PC9zdmc+",
+    "geo": {
+      "latitude": 39.78,
+      "longitude": -89.65
+    },
+    "schema_type": "LocalBusiness",
+    "price_range": "$$",
+    "full_address": "123 Demo Street, Springfield, IL"
+  },
+  "hours": [
+    {
+      "day_key": "sun",
+      "day_he": "",
+      "day_en": "Sunday",
+      "hours_he": "",
+      "hours_en": "Closed",
+      "is_open": false
+    },
+    {
+      "day_key": "mon",
+      "day_he": "",
+      "day_en": "Monday",
+      "hours_he": "",
+      "hours_en": "09:00-18:00",
+      "is_open": true
+    },
+    {
+      "day_key": "tue",
+      "day_he": "",
+      "day_en": "Tuesday",
+      "hours_he": "",
+      "hours_en": "09:00-18:00",
+      "is_open": true
+    },
+    {
+      "day_key": "wed",
+      "day_he": "",
+      "day_en": "Wednesday",
+      "hours_he": "",
+      "hours_en": "09:00-18:00",
+      "is_open": true
+    },
+    {
+      "day_key": "thu",
+      "day_he": "",
+      "day_en": "Thursday",
+      "hours_he": "",
+      "hours_en": "09:00-18:00",
+      "is_open": true
+    },
+    {
+      "day_key": "fri",
+      "day_he": "",
+      "day_en": "Friday",
+      "hours_he": "",
+      "hours_en": "09:00-15:00",
+      "is_open": true
+    },
+    {
+      "day_key": "sat",
+      "day_he": "",
+      "day_en": "Saturday",
+      "hours_he": "",
+      "hours_en": "Closed",
+      "is_open": false
+    }
+  ],
+  "design": {
+    "color_primary": "blue",
+    "color_secondary": "sky",
+    "animation_style": "elegant",
+    "button_style": "rounded",
+    "section_style": "default",
+    "page_theme": "light"
+  },
+  "sections": [
+    {
+      "id": "nav",
+      "variant": "A",
+      "visible": true,
+      "content": {
+        "cta": {
+          "he": "",
+          "en": "Call Now"
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "A",
+      "visible": true,
+      "config": {
+        "layout": "centered"
+      },
+      "content": {
+        "line1": {
+          "he": "",
+          "en": "Reliable Home Services, Done Right"
+        },
+        "subtitle": {
+          "he": "",
+          "en": "Fast, friendly, and fully guaranteed — serving Springfield since 2010."
+        }
+      }
+    },
+    {
+      "id": "services",
+      "variant": "A",
+      "visible": true,
+      "content": {
+        "title": {
+          "he": "",
+          "en": "Our Services"
+        }
+      },
+      "items": [
+        {
+          "id": "s1",
+          "icon": "🔧",
+          "title": {
+            "he": "",
+            "en": "Repairs"
+          },
+          "desc": {
+            "he": "",
+            "en": "Quick fixes for everyday problems"
+          },
+          "price": {
+            "he": "",
+            "en": "From $49"
+          }
+        },
+        {
+          "id": "s2",
+          "icon": "🧰",
+          "title": {
+            "he": "",
+            "en": "Installation"
+          },
+          "desc": {
+            "he": "",
+            "en": "Professional installation of fixtures and appliances"
+          },
+          "price": {
+            "he": "",
+            "en": "From $99"
+          }
+        },
+        {
+          "id": "s3",
+          "icon": "🧹",
+          "title": {
+            "he": "",
+            "en": "Maintenance"
+          },
+          "desc": {
+            "he": "",
+            "en": "Scheduled upkeep to prevent bigger issues"
+          },
+          "price": {
+            "he": "",
+            "en": "From $79"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "variant": "A",
+      "visible": true,
+      "content": {
+        "title": {
+          "he": "",
+          "en": "About Us"
+        },
+        "body": {
+          "he": "",
+          "en": "Test Business Co. has served the Springfield area for over 15 years with honest pricing and dependable work."
+        }
+      }
+    },
+    {
+      "id": "gallery",
+      "variant": "A",
+      "visible": true,
+      "items": [
+        {
+          "id": "g1",
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMTZhMzRhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5Xb3Jrc2hvcDwvdGV4dD48L3N2Zz4=",
+          "thumb": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMTZhMzRhIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5Xb3Jrc2hvcDwvdGV4dD48L3N2Zz4=",
+          "source": "owner",
+          "alt": {
+            "he": "",
+            "en": "Photo 1"
+          }
+        },
+        {
+          "id": "g2",
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZWE1ODBjIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5UZWFtPC90ZXh0Pjwvc3ZnPg==",
+          "thumb": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZWE1ODBjIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5UZWFtPC90ZXh0Pjwvc3ZnPg==",
+          "source": "owner",
+          "alt": {
+            "he": "",
+            "en": "Photo 2"
+          }
+        },
+        {
+          "id": "g3",
+          "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjN2MzYWVkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5TdG9yZWZyb250PC90ZXh0Pjwvc3ZnPg==",
+          "thumb": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjN2MzYWVkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iNjAiIGZpbGw9IiNmZmZmZmYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5TdG9yZWZyb250PC90ZXh0Pjwvc3ZnPg==",
+          "source": "owner",
+          "alt": {
+            "he": "",
+            "en": "Photo 3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "variant": "A",
+      "visible": true,
+      "items": [
+        {
+          "author": "Alex Johnson",
+          "rating": 5,
+          "text": {
+            "he": "",
+            "en": "Great service, very professional!"
+          },
+          "date": "2 weeks ago",
+          "iso_date": "2026-08-20",
+          "is_local_guide": false
+        },
+        {
+          "author": "Sam Lee",
+          "rating": 5,
+          "text": {
+            "he": "",
+            "en": "Fixed my issue in under an hour."
+          },
+          "date": "1 month ago",
+          "iso_date": "2026-08-05",
+          "is_local_guide": false
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "variant": "A",
+      "visible": true,
+      "content": {
+        "title": {
+          "he": "",
+          "en": "Frequently Asked Questions"
+        }
+      },
+      "items": [
+        {
+          "id": "f1",
+          "question": {
+            "he": "",
+            "en": "Do you offer free estimates?"
+          },
+          "answer": {
+            "he": "",
+            "en": "Yes, all estimates are free and no-obligation."
+          }
+        },
+        {
+          "id": "f2",
+          "question": {
+            "he": "",
+            "en": "What areas do you serve?"
+          },
+          "answer": {
+            "he": "",
+            "en": "We serve Springfield and the surrounding 20-mile radius."
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "variant": "A",
+      "visible": true,
+      "content": {
+        "title": {
+          "he": "",
+          "en": "Contact Us"
+        }
+      }
+    }
+  ]
+}
